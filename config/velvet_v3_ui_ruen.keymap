@@ -162,10 +162,10 @@
 
         sym_en {
             bindings = <
-&none  &kp TILDE       &kp LT              &kp EQUAL         &kp GT           &kp GRAVE                    &kp DQT    &kp LBKT         &kp UNDER              &kp RBKT            &kp DLLR        &none
-&none  &hml LCMD BSLH  &hml LEFT_ALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RIGHT_SHIFT SEMI  &hmr LEFT_ALT RBRC  &hmr RGUI EXCL  &none
-&none  &kp HASH        &kp STAR            &kp COLON         &kp FSLH         &kp AMPS                     &kp AT     &kp PIPE         &kp COMMA              &kp DOT             &kp QMARK       &none
-                       &none               &none             &trans           &mo 5      &trans    &trans  &none      &trans           &none                  &none
+&none  &kp TILDE       &kp LT              &kp EQUAL         &kp GT           &kp GRAVE                    &kp APOSTROPHE  &kp LBKT         &kp UNDER              &kp RBKT            &kp DLLR        &none
+&none  &hml LCMD BSLH  &hml LEFT_ALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT       &hmr RCTRL LBRC  &hmr RIGHT_SHIFT SEMI  &hmr LEFT_ALT RBRC  &hmr RGUI EXCL  &none
+&none  &kp HASH        &kp STAR            &kp COLON         &kp FSLH         &kp AMPS                     &kp AT          &kp PIPE         &kp COMMA              &kp DOT             &kp QMARK       &none
+                       &none               &none             &trans           &mo 5      &trans    &trans  &none           &trans           &none                  &none
             >;
 
             display-name = "Symbols";
@@ -174,10 +174,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&none  &en TILDE               &en LT              &kp EQUAL         &en GT           &en GRAVE                    &kp DQT    &en LBKT        &kp UNDER                 &en RBKT    &en DLLR        &none
-&none  &hml LCMD RU_BACKSLASH  &hml LEFT_ALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &en LEFT_BRACE  &hmr RIGHT_SHIFT RU_SEMI  &en RBRC    &hmr RGUI EXCL  &none
-&none  &en HASH                &kp STAR            &kp RU_COLON      &kp RU_FSLH      &en AMPS                     &en AT     &en PIPE        &kp RU_COMMA              &kp RU_DOT  &kp RU_QMARK    &none
-                               &none               &none             &trans           &mo 5      &trans    &trans  &none      &trans          &none                     &none
+&none  &en TILDE               &en LT              &kp EQUAL         &en GT           &en GRAVE                    &kp APOSTROPHE  &en LBKT        &kp UNDER                 &en RBKT    &en DLLR        &none
+&none  &hml LCMD RU_BACKSLASH  &hml LEFT_ALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT       &en LEFT_BRACE  &hmr RIGHT_SHIFT RU_SEMI  &en RBRC    &hmr RGUI EXCL  &none
+&none  &en HASH                &kp STAR            &kp RU_COLON      &kp RU_FSLH      &en AMPS                     &en AT          &en PIPE        &kp RU_COMMA              &kp RU_DOT  &kp RU_QMARK    &none
+                               &none               &none             &trans           &mo 5      &trans    &trans  &none           &trans          &none                     &none
             >;
         };
 
